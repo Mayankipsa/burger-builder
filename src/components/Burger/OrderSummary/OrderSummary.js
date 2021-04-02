@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Auxillary from '../../../hoc/Auxillary';
 import Button from '../../UI/Button/Button';
 
-
+//This could be function component and doesn't have to be class
 class OrderSummary extends Component {
     componentDidUpdate() {
         console.log('[OrderSummary] DidUpdate');

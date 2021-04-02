@@ -3,6 +3,7 @@ import styles from './Modal.module.css';
 import Auxillary from '../../../hoc/Auxillary';
 import BackDrop from '../Backdrop/Backdrop';
 
+//This could be function component and doesn't have to be class
 class Modal extends Component {
     shouldComponentUpdate(nextProps, nextState) {
         return nextProps.show !== this.props.show;
