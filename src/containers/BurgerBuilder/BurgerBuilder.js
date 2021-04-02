@@ -102,10 +102,10 @@ class BurgerBuilder extends Component {
     purchaseHandler = () => {
         this.setState({ purchasing: true })
     };
-    puurchaseCancelHandler = () => {
+    purchaseCancelHandler = () => {
         this.setState({ purchasing: false });
     }
-    puurchaseContinueHandler = () => {
+    purchaseContinueHandler = () => {
         //alert('You Continue!');
         this.setState({ loading: true });
         const order = {
@@ -161,8 +161,8 @@ class BurgerBuilder extends Component {
                 </Auxillary>
             );
             orderSummary = <OrderSummary
-                purchaseCancelled={this.puurchaseCancelHandler}
-                purchaseContinued={this.puurchaseContinueHandler}
+                purchaseCancelled={this.purchaseCancelHandler}
+                purchaseContinued={this.purchaseContinueHandler}
                 price={this.state.totalPrice}
                 ingredients={this.state.ingredients} />;
         }
@@ -170,7 +170,7 @@ class BurgerBuilder extends Component {
         return (
             <Auxillary>
                 <Modal show={this.state.purchasing}
-                    modalClosed={this.puurchaseCancelHandler}>
+                    modalClosed={this.purchaseCancelHandler}>
                     {orderSummary}
                 </Modal>
                 {burger}
