@@ -13,7 +13,7 @@ const burger = (props) => {
             return arr.concat(el)
         }, []); //Flattening of Array:: check out JS docs
 
-    console.log(transformedIngredients);
+    // console.log(transformedIngredients);
     if (transformedIngredients.length === 0) {
         transformedIngredients = <p>Please start adding Ingredients.</p>;
     }
