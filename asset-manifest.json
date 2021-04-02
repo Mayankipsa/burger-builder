@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/burger-builder/static/css/main.ee073815.chunk.css",
-    "main.js": "/burger-builder/static/js/main.9f1099c0.chunk.js",
-    "main.js.map": "/burger-builder/static/js/main.9f1099c0.chunk.js.map",
+    "main.js": "/burger-builder/static/js/main.52b132f2.chunk.js",
+    "main.js.map": "/burger-builder/static/js/main.52b132f2.chunk.js.map",
     "runtime-main.js": "/burger-builder/static/js/runtime-main.699a5d29.js",
     "runtime-main.js.map": "/burger-builder/static/js/runtime-main.699a5d29.js.map",
     "static/js/2.b864b872.chunk.js": "/burger-builder/static/js/2.b864b872.chunk.js",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.699a5d29.js",
     "static/js/2.b864b872.chunk.js",
     "static/css/main.ee073815.chunk.css",
-    "static/js/main.9f1099c0.chunk.js"
+    "static/js/main.52b132f2.chunk.js"
   ]
 }
