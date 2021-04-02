@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import styles from './Modal.module.css';
-import Auxillary from '../../../hoc/Auxillary';
+import Auxillary from '../../../hoc/Auxillary/Auxillary';
 import BackDrop from '../Backdrop/Backdrop';
 
 //This could be function component and doesn't have to be class
